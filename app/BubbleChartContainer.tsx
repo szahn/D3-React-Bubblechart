@@ -13,7 +13,6 @@ import $ = require("jquery");
 class BubbleChartContainer extends React.Component<any, any>{
     refs: {
         [key: string]: React.ReactInstance
-        toolbar: React.ReactInstance
         nav: React.ReactInstance
     }
 
@@ -39,9 +38,8 @@ class BubbleChartContainer extends React.Component<any, any>{
 
     getContainerSize() {
         const windowSize = WindowSize.getSize();
-        const toolbarHeight = this.refs.toolbar ? $(this.refs.toolbar).height() || 40 : 40;
-        const navHeight = this.refs.nav ? $(this.refs.nav).height() || 40 : 40;
-        return [windowSize[0], (windowSize[1]) - (toolbarHeight + navHeight)];
+        const navHeight = this.refs.nav ? $(this.refs.nav).height() || 20 : 20;
+        return [windowSize[0], (windowSize[1]) - navHeight];
     }
 
     componentDidMount() {

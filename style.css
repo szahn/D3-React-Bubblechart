@@ -3,7 +3,7 @@ html, body {
     padding: 0 0;
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:10px;
+    font-size:12px;
 }
 
 .container {
@@ -89,7 +89,8 @@ html, body {
 }
 
 .breadcrumb {
-    font-size: 12px;
+    font-size: 1.3em;
+    padding: 4px;
 }
 
 .toolbar {

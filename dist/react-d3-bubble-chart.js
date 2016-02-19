@@ -21106,9 +21106,8 @@
 	    }
 	    BubbleChartContainer.prototype.getContainerSize = function () {
 	        var windowSize = WindowSize.getSize();
-	        var toolbarHeight = this.refs.toolbar ? $(this.refs.toolbar).height() || 40 : 40;
 	        var navHeight = this.refs.nav ? $(this.refs.nav).height() || 40 : 40;
-	        return [windowSize[0], (windowSize[1]) - (toolbarHeight + navHeight)];
+	        return [windowSize[0], (windowSize[1]) - navHeight];
 	    };
 	    BubbleChartContainer.prototype.componentDidMount = function () {
 	        var _this = this;
