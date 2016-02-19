@@ -1,0 +1,28 @@
+{
+  "name": "ReactD3BubbleChart",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Stuart Zahn",
+    "email": "stuart.zahn@gmail"
+  },
+  "private": true,
+  "devDependencies": {
+    "d3": "^3.5.12",
+    "del": "^2.2.0",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.0",
+    "jquery": "^2.2.0",
+    "lodash": "^4.2.1",
+    "react": "^0.14.6",
+    "react-addons-css-transition-group": "^0.14.6",
+    "react-dom": "^0.14.3",
+    "reflux": "^0.3.0",
+    "rx": "^4.0.7",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.9",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {}
+}
